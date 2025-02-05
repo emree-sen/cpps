@@ -1,4 +1,5 @@
-#include "depend.hpp"
+#include <iostream>
+#include <fstream>
 
 int main(int argc, char const *argv[])
 {
@@ -36,7 +37,10 @@ int main(int argc, char const *argv[])
             line = before + replaceStr + after;
             pos += replaceStr.length();
         }
-        outputFile << line << std::endl;
+        outputFile << line;
+        if (!inputFile.eof()) {
+            outputFile << std::endl;
+        }
     }
 
     inputFile.close();

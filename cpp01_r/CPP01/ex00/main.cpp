@@ -6,6 +6,8 @@ int main() {
 
     delete heapZombie;
 
+    Zombie stackZombie("StackZombie");
+
     randomChump("StackZombie");
 
     return 0;
