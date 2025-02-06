@@ -7,9 +7,7 @@ int	main()
 	harl.complain("DEBUG");
 
 	harl.complain("INFO");
-	
-    harl.complain("INVALID");
-	
+		
     harl.complain("WARNING");
 	
     harl.complain("ERROR");

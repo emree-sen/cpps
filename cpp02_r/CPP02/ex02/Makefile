@@ -1,5 +1,5 @@
-NAME=Sed
-SRC=main.cpp
+NAME=Fixed
+SRC=Fixed.cpp main.cpp FixedOverloads.cpp
 OBJ=$(SRC:.cpp=.o)
 FLAGS=-Wall -Wextra -Werror -std=c++98
 

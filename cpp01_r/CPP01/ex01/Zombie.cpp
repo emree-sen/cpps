@@ -5,6 +5,11 @@ Zombie::Zombie()
     this->name = "Zombie";
 }
 
+Zombie::~Zombie()
+{
+    std::cout << "<" << this->name << "> is dead" << std::endl;
+}
+
 void Zombie::announce()
 {
     std::cout << "<" << this->name << "> BraiiiiiiinnnzzzZ..." << std::endl;
